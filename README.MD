@@ -11,12 +11,12 @@
 
 ##### * Obviamente que por cuestion de copyright y secreto bancario, cierta informacion no se encuentra accesible.
 
+### En la portada se tiene acceso a la tabla de los datos 
 <a href="https://github.com/gcallegari19/desarrollo_interfaz_transcripciones">
     <img src="/transcripciones-portada.png">
 </a>
 
-
-
-### En la portada se tiene acceso a la tabla de los datos 
-
 ### Luego existe una segunda pagina de "Mas Información" donde se explica brevemente con que se encontrara el usuario en la portada.
+<a href="https://github.com/gcallegari19/desarrollo_interfaz_transcripciones">
+    <img src="/transcripciones-mas_info.png">
+</a>
