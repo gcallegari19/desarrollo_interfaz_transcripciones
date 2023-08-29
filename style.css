@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+header {
+    background-color: rgb(83, 83, 150);
+}
+
+/* Estilos Portada */
+h1 {
+    font-size: 80px;
+    color: whitesmoke;
+    padding: 20px;
+
+}
+
+.row{
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.form-label{
+    font-size: larger;
+    text-align: center;
+    margin-top: .5rem;
+}
+
+.table{
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #fdfef7;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.table th {
+    max-width: 100%;
+    font-size: large; 
+}
+
+div .row{
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;    
+}
+
+h3{
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parrafo-footer{
+    font-size: xx-large;
+}
+
+.float {
+    cursor: pointer;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background-color: rgb(101, 160, 97);
+    color: #FFF;
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+    z-index: 9999;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-text {
+    display: none;
+    position: absolute;
+    bottom: calc(100% + 5px);
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+  
+.float:hover {
+    text-decoration: none;
+    background-color: rgb(83, 83, 150);
+}
+  
+.float:hover .icon-text {
+    display: block;
+}
+
+/* Estilos Mas Info */
+
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 5vh;
+    padding-bottom: 40px;
+}
+
+.card{
+    margin-right: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5)
+}
+
+.container-text{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    padding-right: 10em;
+    padding-left: 10em;
+    text-align: justify;
+}
+
+.container-text h2 {
+    font-size: 6vh;
+    text-align: center;
+    padding-bottom: 30px;
+    text-decoration: underline;
+}
+
+.container-text h5 {
+    font-size: large;
+}
+
+.container-text p {
+    padding-bottom: 15px;
+}
+
+.parrafo{
+    font-size: medium;
+}
+
+.container-images img{
+    max-width: 100%;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+
+footer {
+    background-color: rgb(83, 83, 150);
+}
+
+footer p {
+    font-size: 30px;
+    color: whitesmoke;
+    padding: 20px;
+}

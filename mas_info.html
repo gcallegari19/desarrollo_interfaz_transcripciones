@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre el Proyecto</title>
+      <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="d-flex justify-content-between">
+          <h1>Sobre el Proyecto</h1>
+          <!-- Logo Banco-->
+          <img src="/Logo.png" alt="imagen-banco" srcset="">
+        </div>
+    </header> 
+
+    <section class="container-text">
+        <h2>Proyecto Transcripciones</h2>
+        <div class="parrafo">
+            <p>En este proyecto, combinamos dos poderosas herramientas, Whisper y PySentimiento, que juntas ofrecen una solución integral y potente para convertir audios en texto y comprender las emociones detrás de las palabras de nuestros socios a traves de las llamadas telefonicas y adaptar su enfoque para brindar una experiencia personalizada y satisfactoria.</p>
+        </div>
+
+        <div class="row">
+            <div class="card" style="width: 25rem;">
+                <img src="whisper.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">¿Que es Whisper?</h5>
+                <p class="card-text">Es un modelo de reconocimiento de voz que realiza las transcripción. Fue entrenado con 680,000 horas de audio en diferentes idiomas y con diferentes acentos. Permite a los supervisores monitorear las llamadas, brindar orientación a los empleados e intervenir cuando sea necesario.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 25rem;">
+                <img src="pysentimiento.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">¿Que es Pyentimiento?</h5>
+                <p class="card-text">Es un modelo de detección de sentimientos, que por medio de un algoritmo de aprendizaje automático que puede puede analizar el contenido de un texto o discurso y determinar las emociones expresadas en él. Es decir, que es capaz de asignarle la valoración de sentimientos al texto transcripto.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="parrafo">
+            <p> Al procesar el audio completo, obtenemos un promedio de los sentimientos. Sin embargo, para obtener resultados más precisos, dividimos la llamada en tramos de un minuto cada uno y analizamos las emociones por separado. Si se encuentra picos de sentimientos negativos o positivos superiores al 70%, se asigna una valoración más concreta.</p>
+        </div>
+
+        <div class="parrafo">
+            <p>En esta web, podras ver el detalle de los audios que estas herramientas van transcribiendo y clasificando: 
+            <ul>
+                <li>Fecha</li>
+                <li>Nombre del audio</li>
+                <li>Duración</li>
+                <li>Pico de Negatividad</li>
+                <li>Porcentaje máximo de Negatividad, Neutralidad y Positividad</li>
+            </ul>
+            Ademas se encontraran los tags que son las palabras mas relevantes/repetidas en los audios que hacen referencia al tema o al producto objetivo en la conversacion ("tarjeta", "transferencia", "debito-automatico", "banca-internet", "cuenta", "prestamo", "seguros", "cheque", "plazo-fijo", "home-banking", "cajero").</p>
+            
+            <p>Por último, tendrás acceso a los gráficos que muestran la evolución de los sentimientos en cada minuto del audio, los textos transcritos y un reproductor del audio.</p>
+        </div>
+    </section>
+
+    <section class="container-images row">
+        <div class="col">
+            <img src="imagen-ilustrativa.png" alt="">
+        </div>
+    </section>
+
+    <footer>
+        <div class="parrafo-footer">
+          <p>
+            Dto. Modelos Analíticos, Plataformas Comercial y BUP <br> GCOA
+          </p>
+        </div>    
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</body>
+</html>
